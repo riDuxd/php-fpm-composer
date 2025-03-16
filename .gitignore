@@ -1,0 +1,108 @@
+# -----------------------
+# OS-specific files
+# -----------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------
+# Editor / IDE
+# -----------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# -----------------------
+# Node.js dependencies
+# -----------------------
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# -----------------------
+# Composer dependencies
+# -----------------------
+vendor/
+composer.lock
+
+# -----------------------
+# Docker
+# -----------------------
+# If you keep environment configs in .env (and rely on .env.example),
+# you can ignore .env to avoid committing secrets.
+.env
+.env.*.local
+.y*ml
+
+# -----------------------
+# PHP build artifacts
+# -----------------------
+*.phpunit.result.cache
+phpunit.xml
+
+# -----------------------
+# Logs & Cache
+# -----------------------
+*.log
+*.cache
+cache/
+tmp/
+storage/logs/
+storage/framework/sessions/
+storage/framework/views/
+
+# -----------------------
+# User uploads / local data
+# -----------------------
+public/uploads/
+database.sqlite
+database.sqlite-journal
+
+# -----------------------
+# Misc / Tools
+# -----------------------
+*.bak
+*.old
+*.orig
+
+# -----------------------
+# Docker / Docker Compose
+# -----------------------
+# If you keep environment configs in .env (and rely on .env.example),
+# you can ignore .env to avoid committing secrets.
+.env
+.env.*.local
+
+# Many teams keep the main docker-compose.yml in version control
+# so everyone shares the same baseline. You can uncomment these lines
+# if you want to ignore all Compose files. Adjust as needed:
+# docker-compose.yml
+*.y*ml
+
+# -----------------------
+# Ignore coverage reports
+# -----------------------
+coverage/
+.coverage
+
+# -----------------------
+# Laravel (optional)
+# -----------------------
+# If you're using Laravel, you might also add:
+# /bootstrap/cache/packages.php
+# /bootstrap/cache/services.php
+# /public/storage
+# /storage/*.key
+# (Remove if not applicable to your project)
+
+# -----------------------
+# Symfony (optional)
+# -----------------------
+# /var/cache/*
+# /var/logs/*
+# (Remove if not applicable to your project)
+
+# -----------------------
+# End of file
+# -----------------------
